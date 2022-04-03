@@ -1,0 +1,33 @@
+.form,
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input {
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+.button {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus {
+  box-shadow: 4px 4px 8px 0px rgba(102,  77,  182, 0.2);
+  transform: scale(1.04);
+}
